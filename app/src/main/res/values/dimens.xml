@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //gl view phone portrait height
+    <dimen name="gl_prt_height_dim">200dp</dimen>
+    //gl view phone land height
+    <dimen name="gl_land_height_dim">170dp</dimen>
+    //gl view phone land width
+    <dimen name="gl_land_width_dim">4500dp</dimen>
+
+    //gl view phablet/tablet dim
+    <dimen name="gl_tablet_dim">300dp</dimen>
+</resources>

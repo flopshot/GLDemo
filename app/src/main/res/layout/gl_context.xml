@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- We will create a GLES context and render to this SurfaceView -->
+    <com.sean.gldemo.MyGLSurfaceView
+        android:id="@+id/gl_surface_view"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/gl_prt_height_dim" />
+
+    <!-- TextBox of Naive call to non-static java method -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gl_surface_view"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:id="@+id/gles_textbox"
+        android:textSize="17sp"/>
+
+    <!-- TextBox of FormFactor Def -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gl_surface_view"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:id="@+id/gles_formfactor_textbox"
+        android:textSize="17sp"/>
+
+</RelativeLayout>

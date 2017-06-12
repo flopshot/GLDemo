@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GLDemo</string>
+    <string name="form_factor_text_land">Alternate Form Factor for Landscape Mode</string>
+    <string name="form_factor_text_tablet">Alternate Form Factor for 7\u0022+ tablets</string>
+</resources>
